@@ -1,0 +1,76 @@
+﻿body{
+    background-color: lightsteelblue;
+}
+
+table {
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #888;
+    background-color: azure;
+}
+
+.titulo {
+    text-align:center;
+    font-size: 20px;
+    font-family: Impact;
+    color: #211B15;
+}
+
+justify {
+    display:block;
+}
+
+td{
+    padding: 1em;
+    min-width: 450px;
+}
+
+.subtitulos{
+    margin-bottom: .5em;
+    display: block;
+    font-size: 18px;
+    font-family:Arial;
+}
+
+.conteudo {
+    margin-bottom: .5em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+.conteudo2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+.serie{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+button {
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: azure;
+    box-shadow: 3px 3px 2px #888;
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+

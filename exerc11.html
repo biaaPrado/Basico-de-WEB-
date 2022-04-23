@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<!--Beatriz Prado Soche, nº 36, 72B -->
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Exercício 11 - Lista HTML </title>
+    <link rel="stylesheet" type="text/css" href="exerc11.css" />
+</head>
+<body>
+    <div class="titulo">
+        <h1> ESCOLA VIRTUAL </h1>
+        <h2> Formulário de Pré - Matrícula </h2>
+        <hr />
+    </div>
+
+    <form>
+        <center>
+            <table>
+                <tr colspan="2">
+                    <td>
+                        <b class="subtitulos"> DADOS PESSOAIS <br /> </b>
+
+                        <justify>
+
+                            <div class="conteudo">
+                                 <span> NOME DO ALUNO: </span>
+                                 <input type="text" size="35" placeholder=" Nome completo "/>
+                            </div>
+
+                            <div class="conteudo">
+                                 <span> NASCIMENTO: </span>
+                                 <div>
+                                    <input type="text" name="dia" size="2" placeholder="dd"/> /
+                                    <input type="text" name="mes" size="2" placeholder="mm"/> /
+                                    <input type="text" name="ano" size="3" placeholder="aaaa"/>
+                                 </div>
+                            </div>
+
+                            <div class="conteudo">
+                                 <span> NOME DA MÃE: </span>
+                                 <input type="text" name="nomeM" size="35" placeholder="Escreva aqui..." />
+                            </div>
+
+                            <div class="conteudo">
+                                 <span> NOME DO PAI: </span>
+                                 <input type="text" name="nomeP" size="35" placeholder="Escreva aqui..."/>
+                            </div>
+
+                            <div class="conteudo">
+                                 <span>TELEFONE: (<input type="text" name="ddd" size="1" placeholder=" ddd"/>) </span>
+                                 <span>TEL: <input type="tel" name="tel" size="6" placeholder=" telefone"/> </span>
+                                 <span>RAMAL: <input type="text" name="ramal" size="2" /> </span>
+                            </div>
+
+                            <div class="conteudo2">
+                                 <span> E-MAIL: </span>
+                                 <input type="email" name="email" size="35" placeholder="exemplo@email.com"/>
+                            </div>
+
+                        </justify>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                        <b> INFORMAÇÕES DE MATRÍCULA</b>
+
+                        <div class="conteudo2">
+                            <div>
+                                <div> SÉRIE: </div>
+                                <select name="série" class="serie">
+                                    <option label="Pré-escolar" value="1"></option>
+                                    <option label="Fundamental 1º ao 5º" value="2"></option>
+                                    <option label="Fundamental 6º ao 9º" value="3"></option>
+                                    <option label="Ensino médio" value="4"></option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <div> TURNO: </div>
+                                <div>
+                                    <input type="radio" name="turno" id="m" value="manhã" />
+                                    <label>Manhã</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="turno" id="t" value="tarde" />
+                                    <label>Tarde</label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div> EXTRACURRICULARES: </div>
+                                <div>
+                                    <input type="checkbox" name="atv1" value="informática" />
+                                    <label> Informática </label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" name="atv2" value="imusica" />
+                                    <label> Música </label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" name="atv3" value="balet" />
+                                    <label> Balet </label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" name="atv4" value="pintura" />
+                                    <label> Pintura </label>
+
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" name="atv5" value="judo" />
+                                    <label>Judô </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+            <div>
+                <button type="submit"> ENVIAR CADASTRO </button>
+                <button type="reset"> LIMPAR DADOS </button>
+            </div>
+        </center>
+    </form>
+</body>
+</html>
